@@ -17,7 +17,10 @@ Unstoppable Email: jag.internet@gmail.com
 
 Bootstrapped with create-react-app, and depends on UD resolution library + TopTecShare nft-gallery
 
-Environment Variables: REACT_APP_CLIENT_ID, REACT_APP_CLIENT_SECRET, REACT_APP_REDIRECT_URI
+Environment Variables:
+- REACT_APP_CLIENT_ID
+- REACT_APP_CLIENT_SECRET
+- REACT_APP_REDIRECT_URI
 
 > npm install --save @uauth/js
 
