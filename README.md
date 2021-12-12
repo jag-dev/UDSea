@@ -6,7 +6,7 @@ tl;dr View NFT collections by searching for UNS domain addresses
 
 ## Submission Info
 
-YouTube Demo: VIDEO LINK
+YouTube Demo: [Click Here](https://youtu.be/tRzXba-ngVg)
 
 Discord ID: JaG#3990
 
@@ -23,7 +23,7 @@ Environment Variables:
 - REACT_APP_REDIRECT_URI
 
 Install the following dependencies
- 
+
 > npm install --save @uauth/js
 
 > npm install @unstoppabledomains/resolution --save
