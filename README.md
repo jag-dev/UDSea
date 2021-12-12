@@ -22,6 +22,8 @@ Environment Variables:
 - REACT_APP_CLIENT_SECRET
 - REACT_APP_REDIRECT_URI
 
+Install the following dependencies
+ 
 > npm install --save @uauth/js
 
 > npm install @unstoppabledomains/resolution --save
