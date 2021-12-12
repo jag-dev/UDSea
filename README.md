@@ -1,4 +1,4 @@
-### UDSea | NFT Gallery
+# UDSea | NFT Gallery
 
 Thank you for taking the time to check out my submission! This application uses "Login with Unstoppable" integration in order for users to access a page which allows them to view the NFT collections of other wallets by searching their Unstoppable Domains crypto address. This was my first time using React and I really appreciate the opportunity to use these systems and participate in this event.
 
