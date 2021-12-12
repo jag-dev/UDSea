@@ -15,7 +15,7 @@ Unstoppable Email: jag.internet@gmail.com
 
 ## Cloning Info
 
-Bootstrapped with create-react-app, and depends on UD resolution library + TopTecShare nft-gallery
+Bootstrapped with create-react-app, and depends on UD resolution/uauth libraries + TopTecShare nft-gallery
 
 Environment Variables:
 - REACT_APP_CLIENT_ID
