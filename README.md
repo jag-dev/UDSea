@@ -14,8 +14,10 @@ Unstoppable Email: jag.internet@gmail.com
 This application is bootstrapped with create-react-app, and depends on Unstoppable Domains resolution library + TopTecShare nft-gallery
 
 > npm install --save @uauth/js
-npm install @unstoppabledomains/resolution --save
-npm install react-nft-gallery --save
+
+> npm install @unstoppabledomains/resolution --save
+
+> npm install react-nft-gallery --save
 
 To run the application from the main directory, use:
 > npm start
