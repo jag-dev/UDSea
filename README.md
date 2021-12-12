@@ -38,7 +38,7 @@ Now running in development mode on http://localhost:3000/
 
 ## References
 
-- [Login with Unstoppable](https://docs.unstoppabledomains.com/login-with-unstoppable/login-integration-guides)
+- [Unstoppable Authentication](https://github.com/unstoppabledomains/uauth)
 - [Unstoppable Resolution](https://github.com/unstoppabledomains/resolution)
 - [nft-gallery](https://github.com/TopTecShare/nft-gallery)
 - [Video by Taryn Elliott from Pexels](https://www.pexels.com/video/view-of-the-table-mountain-of-cape-town-from-a-beach-shore-3326847/)
