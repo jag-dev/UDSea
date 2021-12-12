@@ -1,0 +1,138 @@
+.search-form {
+  border-right: 1px solid #ededed;
+  border-left: 1px solid #ededed;
+  margin: 0 17em 0em 17em;
+  background-color: #fff;
+  min-height: 50em;
+  padding: 0 4em 0 4em;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 4%), 0 2px 4px 0 rgb(0 0 0 / 8%);
+  position: relative;
+}
+.search-wrapper {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2.5em;
+}
+.search-header { 
+  list-style-type: none;
+  padding-top: 5em; 
+}
+.search-header li { 
+  display: inline-block; 
+  height: 5em;
+}
+.search-header img {
+  height: 5em;
+  float: left;
+}
+.search-header h1 {
+  float: left;
+  font-size: 2.2em;
+  letter-spacing: 2px;
+  color: #333;
+  margin-left: 10px;
+  padding-top: 0.4em;
+}
+.search-desc { display: block !important; }
+.search-desc h2 {
+  font-weight: 100;
+  font-size: 1.2em;
+  margin: 1.5em 15em 5em 15em;
+  letter-spacing: 1px;
+  color: #777;
+}
+.search-bar {
+  height: 2.65em;
+  width: 50em;
+  margin: 0;
+  margin-right: 0.5em;
+  padding-left: 1.4em;
+  border: 1px solid #4C47F7;
+  border-radius: 0.5em;
+  font-size: 1.1em;
+}
+.search-btn {
+  height: 3.4em;
+  padding: 0.0em 2.2em;
+  border: 0;
+  border-radius: 0.5em;
+  box-shadow: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.9em;
+  color: #FFF;
+  background-color: #4C47F7;
+  letter-spacing: 2px;
+  text-align: center;
+  transition: all 0.3s;
+}
+.search-btn:hover {
+  cursor: pointer;
+  background-color: #8985fa;
+  transition: all 0.3s;
+}
+.lookup-wrapper { margin-bottom: 2em; }
+.lookup-wrapper li { 
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+.lookup-title {
+  padding-right: 7px;
+  color: #000;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+}
+.lookup-content {
+  letter-spacing: 1px;
+  color: #555;
+}
+.lookup-es {
+  padding-top: 1em;
+}
+.lookup-esa {
+  text-decoration: none;
+  color: #6e6bed;
+  transition: all 0.3s;
+}
+.lookup-esa:hover {
+  color: #2e2c96 !important;
+  transition: all 0.3s;
+}
+.lookup-esa:visited {
+  color: #6e6bed;
+}
+input:focus { 
+  outline: 1px solid #a09dfb;
+}
+.error-wrapper {
+  padding-left: 2em;
+  background-color: #fce0de;
+  border: 2px solid #942f28;
+  border-radius: 1em;
+  letter-spacing: 2px;
+  color: #942f28;
+  margin: 0 3em 0 3em;
+}
+.error-wrapper h1 {
+  font-size: 1.5em;
+  font-weight: 100;
+  margin-bottom: 0;
+  padding: 0.3em 0 0.3em 0;
+}
+.error-wrapper h2 {
+  font-size: 1.1em;
+  font-weight: 100;
+  padding-bottom: 0.3em;
+}
+.description {
+  text-align: center;
+  margin-top: 15em;
+  padding-bottom: 3em;
+  letter-spacing: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  right: 20%;
+}
