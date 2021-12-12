@@ -6,7 +6,7 @@ tl;dr View NFT collections by searching for UNS domain addresses
 
 ## Submission Info
 
-YouTube Demo: <VIDEO LINK>
+YouTube Demo: VIDEO LINK
 Discord ID: JaG#3990
 Unstoppable Email: jag.internet@gmail.com
 
