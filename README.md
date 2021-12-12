@@ -15,7 +15,9 @@ Unstoppable Email: jag.internet@gmail.com
 
 ## Cloning Info
 
-This application is bootstrapped with create-react-app, and depends on Unstoppable Domains resolution library + TopTecShare nft-gallery
+Bootstrapped with create-react-app, and depends on UD resolution library + TopTecShare nft-gallery
+
+Environment Variables: REACT_APP_CLIENT_ID, REACT_APP_CLIENT_SECRET, REACT_APP_REDIRECT_URI
 
 > npm install --save @uauth/js
 
@@ -26,7 +28,7 @@ This application is bootstrapped with create-react-app, and depends on Unstoppab
 To run the application from the main directory, use:
 > npm start
 
-Now running in development mode on http://localhost:5000/
+Now running in development mode on http://localhost:3000/
 
 
 ## References
