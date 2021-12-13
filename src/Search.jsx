@@ -11,7 +11,8 @@ class Search extends React.Component {
 	
     this.state = { domain: "",
 	               address: "",
-				   error: false,
+                   error: false,
+                   lookup: false,
                    searched: false };
 
     this.handleChange = this.handleChange.bind(this);
@@ -29,6 +30,7 @@ class Search extends React.Component {
   handleChange(event) {
     this.setState({domain: event.target.value});
 	this.setState({address: ''});
+	this.setState({lookup: false});
 	this.domain = event.target.value;
   }
   
@@ -42,6 +44,7 @@ class Search extends React.Component {
   handleSubmit(event) {
 	this.handleCleanup();
 	this.setState({searched: true});
+	this.setState({lookup: true});
 	this.resolve(this.domain);
     event.preventDefault();
   }
@@ -71,7 +74,7 @@ class Search extends React.Component {
   displayLookup = () => {
 	const etherlink = 'https://etherscan.io/address/' + this.state.address;
 	
-    if (this.state.searched && !this.state.error) {
+    if (this.state.lookup && !this.state.error) {
 	  return (
 	    <>
 		  <ul className="lookup-wrapper">
