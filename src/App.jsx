@@ -99,7 +99,7 @@ const App: React.FC = () => {
   return (
     <>
 	{/* Video by Taryn Elliott from Pexels */}
-	  <video autoPlay muted={true} loop className="video-bg">
+	  <video autoPlay muted={true} loop className="video-bg" id="vid">
         <source src={background} type="video/mp4" />
       </video>
 	  <div className="login-wrapper positioned">
@@ -116,6 +116,15 @@ const App: React.FC = () => {
           <button className="login-btn positioned" onClick={handleLogin}></button>
 		</div>
 	  </div>
+	  
+	  <script>
+		var vid = document.getElementById("vid");
+		vid.addEventListener("timeupdate", function () {
+			if(this.currentTime >= 5.0) {
+				this.currentTime = 0.0;
+			}
+		});
+	</script>
 	</>
   )
 }
