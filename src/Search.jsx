@@ -56,8 +56,9 @@ class Search extends React.Component {
 	if (this.state.searched) { 
 	  return ( 
 	    <>
-	      <div id="gallery"><NftGallery ownerAddress={this.state.address} /></div>
 		  <hr style={{margin: "0 1.5em 0 1.5em"}}/>
+	      <div id="gallery"><NftGallery ownerAddress={this.state.address} /></div>
+		  
 	    </>
       );
 	}
