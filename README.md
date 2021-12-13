@@ -6,7 +6,7 @@ tl;dr View NFT collections by searching for UNS domain addresses
 
 ## Submission Info
 
-Live Demo: https://udsea.netlify.app
+Live Demo: [Click Here](https://udsea.netlify.app)
 
 YouTube Demo: [Click Here](https://youtu.be/tRzXba-ngVg)
 
