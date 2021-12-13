@@ -42,7 +42,7 @@ const App: React.FC = () => {
 	uauth
 	  .loginWithPopup()
 	  .then(() => uauth.user().then(setUser))
-	  .catch(() => return(<App />))
+	  .catch(setError)
 	  .finally(() => setLoading(false))
 	}
 
@@ -69,7 +69,7 @@ const App: React.FC = () => {
 
   if (error) {
     console.error(error)
-    return <>{String(error.stack)}</>
+    return <App />
   }
 
   if (user) {
