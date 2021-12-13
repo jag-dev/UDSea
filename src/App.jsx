@@ -99,10 +99,10 @@ const App: React.FC = () => {
   return (
     <>
 	{/* Video by Taryn Elliott from Pexels */}
-	  <video autoPlay muted={true} loop className="video-bg" id="vid">
+	  <video autoPlay muted={true} loop className="video-bg animate" id="vid">
         <source src={background} type="video/mp4" />
       </video>
-	  <div className="login-wrapper positioned">
+	  <div className="login-wrapper positioned animate">
 	    <div className="login">
 		  <div className="login-image">
 		    <img src={logo} alt="logo" />

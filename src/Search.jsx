@@ -68,7 +68,7 @@ class Search extends React.Component {
 	if (this.state.error) {
 	  return (
 	    <>
-	      <div className="error-wrapper">
+	      <div className="error-wrapper animate">
 		    <h1>Uh-oh!</h1>
 			<h2>That domain is not registered with Unstoppable</h2>
 		  </div>
@@ -83,7 +83,7 @@ class Search extends React.Component {
     if (this.state.lookup && !this.state.error) {
 	  return (
 	    <>
-		  <ul className="lookup-wrapper">
+		  <ul className="lookup-wrapper animate">
 		    <li>
 			  <span className="lookup-title">Domain </span>
 			  <span className="lookup-content">{this.domain}</span>
