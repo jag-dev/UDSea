@@ -42,7 +42,7 @@ const App: React.FC = () => {
 	uauth
 	  .loginWithPopup()
 	  .then(() => uauth.user().then(setUser))
-	  .catch(return(<App />))
+	  .catch(() => return(<App />))
 	  .finally(() => setLoading(false))
 	}
 
