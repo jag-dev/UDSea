@@ -4,10 +4,12 @@
   margin: 0;
   padding: 0;
   position: fixed;
+  top: 0;
   background-color: #fff;
   box-shadow: 0 0 0 1px rgb(0 0 0 / 4%), 0 2px 4px 0 rgb(0 0 0 / 8%);
   list-style-type: none;
   overflow: hidden;
+  z-index: 5;
 }
 .logo {
   height: 4em;

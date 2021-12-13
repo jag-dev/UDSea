@@ -1,9 +1,9 @@
 .search-form {
   border-right: 1px solid #ededed;
   border-left: 1px solid #ededed;
-  margin: 0 17em 4em 17em;
+  margin: 7em 17em 1em 17em;
   background-color: #fff;
-  min-height: 50em;
+  min-height: 47em;
   padding: 0 4em 3em 4em;
   box-shadow: 0 0 0 1px rgb(0 0 0 / 4%), 0 2px 4px 0 rgb(0 0 0 / 8%);
   position: relative;
