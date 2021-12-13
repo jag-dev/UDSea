@@ -54,15 +54,6 @@ const App: React.FC = () => {
 		  .catch(setError)
 		  .finally(() => setLoading(false))
 	}
-	
-	const handleVideo = () => {
-		var vid = document.getElementById("vid");
-		vid.addEventListener("timeupdate", function () {
-			if(this.currentTime >= 5.0) {
-				this.currentTime = 0.0;
-			}
-		});
-	}
 	  
   /*///////////////////////
   *   Display content
@@ -111,7 +102,6 @@ const App: React.FC = () => {
 	  <video autoPlay muted={true} loop className="video-bg" id="vid">
         <source src={background} type="video/mp4" />
       </video>
-	  {handleVideo}
 	  <div className="login-wrapper positioned">
 	    <div className="login">
 		  <div className="login-image">

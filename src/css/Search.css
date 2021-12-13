@@ -1,4 +1,7 @@
-.form-wrapper { margin: 0 0 5em 0; }
+.form-wrapper { 
+  margin: 0 0 3em 0;
+  padding: 0 0 2em 0;
+}
 .search-form {
   border-right: 1px solid #ededed;
   border-left: 1px solid #ededed;
@@ -87,11 +90,12 @@
   padding-right: 7px;
   color: #000;
   letter-spacing: 1px;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 .lookup-content {
   letter-spacing: 1px;
   color: #555;
+  font-size: 1em;
 }
 .lookup-es {
   padding-top: 1em;

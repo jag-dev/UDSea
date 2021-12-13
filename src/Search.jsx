@@ -142,8 +142,8 @@ class Search extends React.Component {
 			    <li><h1>UDSea</h1></li>
 				<hr style={{margin: "1.5em 15em 0 15em"}}/>
 				<li className="search-desc"><h2>Sail the blockchain for other users NFT collections by searching their Unstoppable Domains address</h2></li>
-
 		      </ul>
+			  
 			  <input type="text" className="search-bar" placeholder="Domain address..." value={this.state.domain} onChange={this.handleChange} />
 			  <input type="submit" className="search-btn" value="Search" />
 			</div>
