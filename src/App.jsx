@@ -75,7 +75,7 @@ const App: React.FC = () => {
   if (user) {
     return (
 		<>
-		  <div className="nav"> 
+		  <div className="nav animate"> 
 		  
 		    <ul className="logo-wrapper">
 			  <li className="logo-item"><img className="logo" src={logo} alt="logo"/></li>

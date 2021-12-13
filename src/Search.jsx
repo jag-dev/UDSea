@@ -57,7 +57,7 @@ class Search extends React.Component {
 	  return ( 
 	    <>
 		  <hr style={{margin: "0 1.5em 0 1.5em"}}/>
-	      <div id="gallery"><NftGallery ownerAddress={this.state.address} /></div>
+	      <div id="gallery" className="animate"><NftGallery ownerAddress={this.state.address} /></div>
 		  
 	    </>
       );
@@ -142,7 +142,7 @@ class Search extends React.Component {
   *///////////////////////
 	render() { 
 		return (
-		<div className="form-wrapper">
+		<div className="form-wrapper animate">
 		  <form className="search-form" onSubmit={this.handleSubmit}>
 		    <div className="search-wrapper">
 			  <ul className="search-header">
