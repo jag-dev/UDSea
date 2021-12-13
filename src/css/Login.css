@@ -11,7 +11,7 @@
   transform: translate(-50%, -50%);
 }
 .login-wrapper {
-  height: 65vh;
+  min-height: 65vh;
   width: 30vw;
   border: 1px solid #999;
   background-color: #F9FAFF;
