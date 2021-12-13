@@ -40,6 +40,10 @@
   margin: 1.5em 25% 5em 25%;
   letter-spacing: 1px;
   color: #777;
+  
+  @media (max-width: 600px) {
+    display: none;
+  }
 }
 .search-bar {
   height: 2.65em;
@@ -135,10 +139,4 @@ input:focus {
   bottom: 0;
   left: 20%;
   right: 20%;
-}
-
-@media screen and (max-width: 600px) {
-  .search-desc {
-    display: none;
-  }
 }
