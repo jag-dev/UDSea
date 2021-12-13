@@ -84,7 +84,7 @@ class Search extends React.Component {
 			  <span className="lookup-content">{this.state.address}</span>
 			</li>
 			<li className="lookup-es">
-			  <a href={etherlink} target="_blank" className="lookup-esa">View on Etherscan</a>
+			  <a href={etherlink} target="_blank" rel="noreferrer" className="lookup-esa">View on Etherscan</a>
 			</li>
 		  </ul>
 		  <hr style={{margin: "0 1.5em 0 1.5em"}}/>
