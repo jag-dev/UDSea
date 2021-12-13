@@ -1,14 +1,12 @@
 .form-wrapper { 
-  margin: 0 0 3em 0;
-  padding: 0 0 2em 0;
 }
 .search-form {
   border-right: 1px solid #ededed;
   border-left: 1px solid #ededed;
-  margin: 0 17em 0em 17em;
+  margin: 0 17em 3em 17em;
   background-color: #fff;
   min-height: 50em;
-  padding: 0 4em 0 4em;
+  padding: 0 4em 2 4em;
   box-shadow: 0 0 0 1px rgb(0 0 0 / 4%), 0 2px 4px 0 rgb(0 0 0 / 8%);
   position: relative;
 }
