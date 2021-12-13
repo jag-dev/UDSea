@@ -134,7 +134,7 @@ class Search extends React.Component {
   *///////////////////////
 	render() { 
 		return (
-		<div className+"form-wrapper">
+		<div className="form-wrapper">
 		  <form className="search-form" onSubmit={this.handleSubmit}>
 		    <div className="search-wrapper">
 			  <ul className="search-header">
