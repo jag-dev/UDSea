@@ -54,7 +54,12 @@ class Search extends React.Component {
    *///////////////////////
   displayGallery = () => {
 	if (this.state.searched) { 
-	  return ( <div id="gallery"><NftGallery ownerAddress={this.state.address} /></div> );
+	  return ( 
+	    <>
+	      <div id="gallery"><NftGallery ownerAddress={this.state.address} /></div>
+		  <hr style={{margin: "0 1.5em 0 1.5em"}}/>
+	    </>
+      );
 	}
   }
   
@@ -90,7 +95,6 @@ class Search extends React.Component {
 			  <a href={etherlink} target="_blank" rel="noreferrer" className="lookup-esa">View on Etherscan</a>
 			</li>
 		  </ul>
-		  <hr style={{margin: "0 1.5em 0 1.5em"}}/>
 		</>
 	  );
 	}
