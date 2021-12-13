@@ -75,7 +75,6 @@ const App: React.FC = () => {
   if (user) {
     return (
 		<>
-		  <Search />
 		  <div className="nav animate"> 
 		  
 		    <ul className="logo-wrapper">
@@ -92,7 +91,7 @@ const App: React.FC = () => {
 			
 		  </div>
 		  
-		  
+		  <Search />
 		</>
     )
   }
