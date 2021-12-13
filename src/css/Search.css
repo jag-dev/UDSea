@@ -118,7 +118,7 @@ input:focus {
   border-radius: 1em;
   letter-spacing: 2px;
   color: #942f28;
-  margin: 0 3em 0 3em;
+  margin: 0 6em;
 }
 .error-wrapper h1 {
   font-size: 1.5em;

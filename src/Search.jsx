@@ -53,12 +53,11 @@ class Search extends React.Component {
    *   Display functions 
    *///////////////////////
   displayGallery = () => {
-	if (this.state.searched) { 
+	if (this.state.searched && !this.state.error) { 
 	  return ( 
 	    <>
 		  <hr style={{margin: "0 1.5em 0 1.5em"}}/>
 	      <div id="gallery" className="animate"><NftGallery ownerAddress={this.state.address} /></div>
-		  
 	    </>
       );
 	}
