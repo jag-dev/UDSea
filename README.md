@@ -8,7 +8,7 @@ tl;dr View NFT collections by searching for UNS domain addresses
 
 Live Demo: [Click Here](https://udsea.netlify.app)
 
-YouTube Demo: [Click Here](https://youtu.be/tRzXba-ngVg)
+YouTube Demo: [Click Here](https://youtu.be/vDWVJgL7cg0)
 
 Discord ID: JaG#3990
 
