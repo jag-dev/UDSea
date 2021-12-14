@@ -3,7 +3,7 @@
   border-left: 1px solid #ededed;
   margin: 3em 17em 3em 17em;
   background-color: #fff;
-  min-height: 47em;
+  min-height: 43.7em;
   padding: 0 4em 3em 4em;
   box-shadow: 0 0 0 1px rgb(0 0 0 / 4%), 0 2px 4px 0 rgb(0 0 0 / 8%);
   position: relative;
@@ -134,7 +134,7 @@ input:focus {
 .description {
   text-align: center;
   margin-top: 15em;
-  padding-bottom: 3em;
+  padding-bottom: 6em;
   letter-spacing: 1px;
   position: absolute;
   bottom: 0;
