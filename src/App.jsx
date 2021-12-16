@@ -24,7 +24,6 @@ const App: React.FC = () => {
   const [error, setError] = useState()
   const [user, setUser] = useState()
 
-  // Check to see if the user is inside the cache
   useEffect(() => {
     setLoading(true)
     uauth
@@ -37,7 +36,7 @@ const App: React.FC = () => {
   /*///////////////////////
   *   Login/out Functions
   *///////////////////////
-	const handleLogin = () => {
+  const handleLogin = () => {
 	setLoading(true)
 	uauth
 	  .loginWithPopup()
@@ -46,13 +45,13 @@ const App: React.FC = () => {
 	  .finally(() => setLoading(false))
 	}
 
-	const handleLogout = () => {
-		setLoading(true)
-		uauth
-		  .logout()
-		  .then(() => setUser(undefined))
-		  .catch(setError)
-		  .finally(() => setLoading(false))
+  const handleLogout = () => {
+    setLoading(true)
+    uauth
+      .logout()
+      .then(() => setUser(undefined))
+      .catch(setError)
+      .finally(() => setLoading(false))
 	}
 	  
   /*///////////////////////
@@ -64,7 +63,7 @@ const App: React.FC = () => {
       <video autoPlay muted={true} loop className="video-bg">
         <source src={background} type="video/mp4" />
       </video>
-	</>
+    </>
   }
 
   if (error) {
@@ -74,48 +73,45 @@ const App: React.FC = () => {
 
   if (user) {
     return (
-		<>
-		  <div className="nav animate"> 
-		  
-		    <ul className="logo-wrapper">
-			  <li className="logo-item"><img className="logo" src={logo} alt="logo"/></li>
-			  <li className="logo-item"><h1 className="logo-title">UDSea</h1></li>
-			  <li className="logo-item"><span className="logo-title subtitle">| NFT Gallery</span></li>
-			  <hr/>
-			</ul>
+      <>
+        <div className="nav animate"> 
+          <ul className="logo-wrapper">
+            <li className="logo-item"><img className="logo" src={logo} alt="logo"/></li>
+            <li className="logo-item"><h1 className="logo-title">UDSea</h1></li>
+            <li className="logo-item"><span className="logo-title subtitle">| NFT Gallery</span></li>
+            <hr/>
+          </ul>
 			
-		    <ul className="auth-wrapper">
-			  <li className="auth-item domain">{user.sub}</li>
-			  <li className="auth-item"><button className="logout-btn" onClick={handleLogout}>Logout</button></li>
-			</ul>
-			
-		  </div>
-		  
-		  <Search />
-		</>
+          <ul className="auth-wrapper">
+            <li className="auth-item domain">{user.sub}</li>
+            <li className="auth-item"><button className="logout-btn" onClick={handleLogout}>Logout</button></li>
+          </ul>
+        </div>  
+        <Search />
+      </>
     )
   }
 
   return (
     <>
-	{/* Video by Taryn Elliott from Pexels */}
-	  <video autoPlay muted={true} loop className="video-bg animate" id="vid">
+      <video autoPlay muted={true} loop className="video-bg animate" id="vid">
+        {/* Video by Taryn Elliott from Pexels */}
         <source src={background} type="video/mp4" />
       </video>
-	  <div className="login-wrapper positioned animate">
-	    <div className="login">
-		  <div className="login-image">
-		    <img src={logo} alt="logo" />
-		  </div>
-		  <div className="login-title">
-		    <h1>UDSea</h1>
-			<h2>NFT Gallery</h2>
-			<h3>View other Unstoppable Domains family NFT collections by simply searching for their crypto address</h3>
-			<h4>Sign-In Options</h4>
-		  </div>
+      <div className="login-wrapper positioned animate">
+        <div className="login">
+          <div className="login-image">
+            <img src={logo} alt="logo" />
+          </div>
+          <div className="login-title">
+            <h1>UDSea</h1>
+            <h2>NFT Gallery</h2>
+            <h3>View other Unstoppable Domains family NFT collections by simply searching for their crypto address</h3>
+            <h4>Sign-In Options</h4>
+          </div>
           <button className="login-btn positioned" onClick={handleLogin}></button>
-		</div>
-	  </div>
+        </div>
+      </div>
 	</>
   )
 }
