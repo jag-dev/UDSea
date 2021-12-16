@@ -37,13 +37,13 @@ const App: React.FC = () => {
   *   Login/out Functions
   *///////////////////////
   const handleLogin = () => {
-	setLoading(true)
-	uauth
-	  .loginWithPopup()
-	  .then(() => uauth.user().then(setUser))
-	  .catch(setError)
-	  .finally(() => setLoading(false))
-	}
+    setLoading(true)
+    uauth
+      .loginWithPopup()
+      .then(() => uauth.user().then(setUser))
+      .catch(setError)
+      .finally(() => setLoading(false))
+  }
 
   const handleLogout = () => {
     setLoading(true)
@@ -52,18 +52,20 @@ const App: React.FC = () => {
       .then(() => setUser(undefined))
       .catch(setError)
       .finally(() => setLoading(false))
-	}
+  }
 	  
   /*///////////////////////
   *   Display content
   *///////////////////////
 
   if (loading) {
-    return <>
-      <video autoPlay muted={true} loop className="video-bg">
-        <source src={background} type="video/mp4" />
-      </video>
-    </>
+    return ( 
+      <>
+        <video autoPlay muted={true} loop className="video-bg">
+          <source src={background} type="video/mp4" />
+        </video>
+      </>
+    );
   }
 
   if (error) {
@@ -89,7 +91,7 @@ const App: React.FC = () => {
         </div>  
         <Search />
       </>
-    )
+    );
   }
 
   return (
@@ -112,8 +114,8 @@ const App: React.FC = () => {
           <button className="login-btn positioned" onClick={handleLogin}></button>
         </div>
       </div>
-	</>
-  )
+    </>
+  );
 }
 
 export default App;

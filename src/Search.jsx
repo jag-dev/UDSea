@@ -36,8 +36,8 @@ class Search extends React.Component {
   
   handleCleanup = () => {
     const elements = document.getElementsByClassName('rnftg-item');
-    while(elements.length > 0){
-        elements[0].parentNode.removeChild(elements[0]);
+    while(elements.length > 0) {
+      elements[0].parentNode.removeChild(elements[0]);
     }
   }
   
@@ -69,7 +69,7 @@ class Search extends React.Component {
         <>
           <div className="error-wrapper animate">
     	    <h1>Uh-oh!</h1>
-    		<h2>That domain is not registered with Unstoppable</h2>
+            <h2>That domain is not registered with Unstoppable</h2>
     	  </div>
     	</>
       );
@@ -95,7 +95,7 @@ class Search extends React.Component {
               <a href={etherlink} target="_blank" rel="noreferrer" className="lookup-esa">View on Etherscan</a>
             </li>
           </ul>
-		</>
+        </>
       );
     }
   }
