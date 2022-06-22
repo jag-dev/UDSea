@@ -57,7 +57,7 @@ class Search extends React.Component {
       return ( 
         <>
           <hr style={{margin: "0 1.5em 0 1.5em"}}/>
-          <div id="gallery" className="animate"><NftGallery ownerAddress={this.state.address} /></div>
+          <div id="gallery" className="animate"><NftGallery ownerAddress={this.state.address} openseaApiKey="88049b8f5250484ebdd5362ad4559b94"/></div>
         </>
       );
 	}
