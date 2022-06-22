@@ -14,7 +14,6 @@ import background from './img/video.mp4';
   *//////////////////////////////
 const uauth = new UAuth({
   clientID: process.env.REACT_APP_CLIENT_ID,
-  clientSecret: process.env.REACT_APP_CLIENT_SECRET,
   redirectUri: process.env.REACT_APP_REDIRECT_URI,
   scope: 'openid wallet',
 })
