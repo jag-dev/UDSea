@@ -17,3 +17,20 @@ html, body {
     opacity: 1;
    }
 }
+
+@media only screen and (min-width: 1024px) {
+    .video-bg { display: none; }
+    .login-wrapper { width: 100%; }
+    .search-form { margin: 3em 0; }
+    .search-desc h2 { margin: 0; }
+    .description { display: none; }
+    .search-button { margin-top: 1em; }
+}
+
+@media only screen and (min-width: 600px) {
+    .login-btn {
+        top: 60%;
+        width: 320px;
+    }
+    .logo-title { display: none; }
+}
