@@ -19,12 +19,21 @@ html, body {
 }
 
 @media only screen and (max-width: 1024px) {
+    .login-wrapper { 
+        width: 100%;
+        height: 100%
+    }
+    
+    .login-btn {
+        top: 60%;
+        width: 300px;
+    }
+    
     .video-bg { display: none; }
-    .login-wrapper { width: 100%; }
     .search-form { margin: 3em 0; }
     .search-desc h2 { margin: 0; }
     .description { display: none; }
-    .search-button { margin-top: 1em; }
+    .search-btn { margin-top: 1em; }
 }
 
 @media only screen and (max-width: 600px) {
